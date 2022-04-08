@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#jeden{
+    background-color: #483D8B;
+    height: 150px;
+    width: 30%;
+    float: left;
+}
+
+#dwa{
+    float: left;
+    line-height: 60px;
+    background-color: #483D8B;
+    color: white;
+    height: 150px;
+    width: 70%;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+
+.dane{
+    background-color: #AFEEEE;
+    width: 150px;
+    height: 100px;
+    padding: 3px;
+    border: 1px solid black;
+    float: left;
+    margin: 2px;
+}
+
+.dane p{
+    margin-top: 20px;
+}
+
+.data{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #483D8B;
+    clear: both;
+    color: white;
+    padding: 10px;
+}
+
+footer p{
+    margin-top: 15px;
+}
+
+h5{
+    text-align: center;
+}

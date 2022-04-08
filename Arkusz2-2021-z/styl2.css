@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+    height: 330px;
+}
+
+#banner img{
+    margin-top: 15px;
+}
+
+.druzyna{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    height: 150px;
+    width: 170px;
+    float: left;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.liga{
+    clear: both;
+    width: 100%;
+    min-height: 100px;
+}
+
+.druzyna:hover{
+    color: black;
+    background-color: white;
+}
+
+main{
+    color: white;
+    clear: both;
+}
+
+#left{
+    float: left;
+    background-color: whitesmoke;
+    width: 30%;
+    text-align: center;
+    height: 150px;
+}
+
+#right{
+    float: left;
+    width: 70%;
+    background-color: whitesmoke;
+    height: 150px;
+}
+
+body{
+    font-family: Verdana, sans-serif;
+    background-color: seagreen;
+}
+
+h3{
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+}
+li{
+    margin-top: 15px;
+}

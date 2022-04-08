@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Tahoma, sans-serif;
+    background-color: crimson;
+}
+
+#banner{
+    color: white;
+    text-align: center;
+    height: 370px;
+    padding-top: 15px;
+}
+
+#banner img{
+    margin-top: 15px;
+}
+
+#mecze{
+    width: 100%;
+    min-height: 100px;
+    line-height: 40px;
+}
+
+.rozgrywka{
+    color: white;
+    float: left;
+    text-align: center;
+    width: 180px;
+    min-height: 120px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.rozgrywka:hover{  
+    border: 1px solid white;
+}
+
+main{
+    background-color: whitesmoke;
+    height: 50px;
+    width: 99%;
+    margin: 0 auto;
+    clear: both;
+}
+
+#left{
+    background-color: whitesmoke;
+    float: left;
+    width: 70%;
+    height: 230px;
+    line-height: 30px;
+}
+
+#right{
+    background-color: whitesmoke;
+    float: left;
+    width: 30%;
+    height: 230px;
+    text-align: right;
+}
+
+h2{
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+}
+ul{
+    margin-left: 40px;
+}

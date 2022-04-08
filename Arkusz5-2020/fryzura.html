@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Usługi fryzjrskie</title>
+    <link rel="stylesheet" href="styl2.css">
+</head>
+<body>
+    <main>
+            <div id="jedenL">
+                <h2><a href="index.html">SALON FRYZJERSKI</a></h2>
+                <img src="obraz2.jpg" alt="Czesanie">
+            </div>
+            <div id="jedenP">
+                <h2>MENU</h2>
+            </div>
+            <div id="dwaP">
+                <ol>
+                    <li><a href="fryzura.html">Strzyżenie</a>
+                        <ul>
+                            <li>krótkie</li>
+                            <li>śednie</li>
+                            <li>półdługie</li>
+                            <li>długie</li>
+                        </ul>
+                    </li>
+                    <li>Czesanie</li>
+                    <li>Koloryzacja</li>
+                </ol>
+            </div>
+            <div id="dwaL">
+               <h3>Dziś promocja na strzyżenie włosów</h3>
+               <input type="radio" name="wlosy" id="kr"> Krótkie<br>
+               <input type="radio" name="wlosy" id="sr"> Średnie<br>
+               <input type="radio" name="wlosy" id="pd"> Półdługie<br>
+               <input type="radio" name="wlosy" id="dl"> Długie<br>
+               <input type="button" value="Odkryj promocję" onclick="promka()">
+               <p id="wynik"></p>
+            </div>
+            <div id="trzyP">
+                <img src="obraz1.jpg" alt="Fryzjer">
+            </div>
+    </main>
+    <footer>
+        <p>Autor: XXXXXXXXXXXX</p>
+    </footer>
+    <script>
+        function promka(){
+            let cena = 0;
+
+            if(document.getElementById("kr").checked){
+                cena = 25;
+            }else if(document.getElementById("sr").checked){
+                cena = 30;
+            }else if(document.getElementById("pd").checked){
+                cena = 40;
+            }else if(document.getElementById("dl").checked){
+                cena = 50;
+            }
+
+            if(cena>0)
+                document.getElementById("wynik").innerHTML = "Cena strzyżenia: " + cena;
+        }
+    </script>
+</body>
+</html>

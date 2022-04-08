@@ -1,0 +1,6 @@
+SELECT imie, nazwisko, nazwa from pracownicy JOIN stanowisko on pracownicy.id_stanowiska = stanowisko.id;
+SELECT imie, nazwisko from pracownicy;
+SELECT COUNT(id) as ilosc FROM pracownicy;
+SELECT imie, nazwisko from pracownicy JOIN stanowisko on pracownicy.id_stanowiska = stanowisko.id HAVING MAX(pensja)
+ALTER TABLE `pracownicy` ADD `rok_urodzenia` INT NOT NULL AFTER `id_stanowiska`;
+

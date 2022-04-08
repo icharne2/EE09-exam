@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Calibri, sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 68px;
+    height: 80px;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+#cointainer{
+    font-family: Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+
+#cointainer section{
+    background-color: #CC6666;
+    float: left;
+    width: 25%;
+    height: 150px;
+}
+
+.lp{
+    background-color: #CC9999;
+    width: 40%;
+    height: 550px;
+    padding: 30px;
+    text-align: center;
+}
+
+#srodek{
+    width: 20%;
+    height: 550px;
+    padding: 30px;
+    background-color: #FFCCCC;
+}
+
+main div{
+    float: left;
+    box-sizing: border-box;
+}
+
+main{
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+
+table{
+    border: 3px dotted red;
+    width: 100%;
+}
+
+table td{
+    text-align: center;
+}
+
+.przycisk{
+    border: none;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 90px;
+}
+
+#one{
+    width: 95px;
+}
+
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding-right: 50px;
+    text-transform: capitalize;
+    height: 50px;
+    line-height: 60px;
+}
